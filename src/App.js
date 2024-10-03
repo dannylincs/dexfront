@@ -46,7 +46,7 @@ function App() {
         // console.log("Address:", address);
         // console.log("Signer:", signer);     //se
         setAccount(address);
-        const contractAddress  = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+        const contractAddress  = "0xb4A632b613539B2DA96d18b4bA51260285437b73";
 
         const contract = new ethers.Contract(
           contractAddress,
